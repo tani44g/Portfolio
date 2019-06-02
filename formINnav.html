@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a  class="navbar-brand" href="index.html">WebsiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="chat.html" target="_blank">Chat</a></li>
+                <li><a href="vehicleTracking.html" target="_blank">Vehicle Tracking</a></li>
+                <li><a href="ecommerce.html" target="_blank">E-Commerce</a></li>
+                <li><a href="voicetotext.html" target="_blank">Voice To Text</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">DropDown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page - 1</a></li>
+                        <li><a href="#">Page - 2</a></li>
+                        <li><a href="#">Page - 3</a></li>
+                        <li><a href="#">Page - 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Log In</a></li>
+                </ul>
+            <button class="btn btn-danger navbar-btn">Button</button></li>
+            <form class="navbar-form navbar-left" action="blabla">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <h3>This is basic NavBar Example.</h3>
+        <p>A navigation bar is a header that is placed at the top of the page.</p>
+    </div>
+</body>
+</html>
